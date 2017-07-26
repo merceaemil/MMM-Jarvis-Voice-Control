@@ -3,9 +3,12 @@ MMM-Jarvis-Voice-Control
 
 ## Description
 
-Voice control module for MagicMirror using OpenJarvis.
+Voice control & AI module for MagicMirror using OpenJarvis. You can use it just like you do with Siri, Google, Alexa etc.
+It can understand all the words quite ok and is very customisable. OpenJarvis offers a nice place where you can download plugins to customise your setup even more. 
 
-!! This module depends on OpenJarvis & Jarvis-MagicMirror Plugin. Before proceding to installing this module please install OpenJarvis and Jarvis-MagicMirror module.
+
+
+This module depends on OpenJarvis & Jarvis-MagicMirror Plugin. Before proceding to installing this module please install OpenJarvis and Jarvis-MagicMirror module.
 
 ## Install dependencies
 
