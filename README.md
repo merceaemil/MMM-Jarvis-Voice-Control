@@ -9,7 +9,7 @@ Voice control module for MagicMirror using OpenJarvis.
 ## Setup
 
 
-# Installation
+### Installation
 
 Navigate into your MagicMirror's modules folder:
 ````
@@ -21,7 +21,7 @@ Clone this repository:
 git clone https://github.com/CFenner/MMM-AirQuality
 ````
 
-# Configuration
+### Configuration
 
 To activate the module, you need to add the following data to config.js.
 
