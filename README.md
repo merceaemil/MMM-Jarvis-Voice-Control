@@ -5,6 +5,19 @@ MMM-Jarvis-Voice-Control
 
 Voice control module for MagicMirror using OpenJarvis.
 
+!! This module depends on OpenJarvis & Jarvis-MagicMirror Plugin. Before proceding to installing this module please install OpenJarvis and Jarvis-MagicMirror module.
+
+## Install dependencies
+
+1. Install OpenJarvis. 
+````
+Follow the tutorial at https://www.openjarvis.com/content/installation
+````
+2. Install Jarvis-MagicMirror Plugin. 
+````
+Follow the tutorial at https://github.com/merceaemil/jarvis-magicmirror
+````
+
 
 ## Setup
 
