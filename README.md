@@ -34,7 +34,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone https://github.com/CFenner/MMM-AirQuality
+git clone https://github.com/merceaemil/MMM-Jarvis-Voice-Control
 ````
 
 ### Configuration
