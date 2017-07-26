@@ -1,0 +1,107 @@
+.voiceResponse {
+    font-size: 22px;
+    line-height: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.voiceListening{
+    display:none;
+	width: 25px;
+    height: 25px;
+    display: block;
+    position: relative;
+    margin: 10% auto;
+    padding-bottom: 50px;
+    transform:scale(3,3);
+	-webkit-transform:scale(3,3);
+}
+
+.voiceListeningFirstCircle,
+.voiceListeningSecondCircle,
+.voiceListeningThirdCircle{
+	top:50%;
+	left:50%;
+	display:block;
+	border-radius:50%;
+	position:absolute;
+	vertical-align:middle;
+}
+	
+.voiceListeningFirstCircle{
+	width:10px;
+	height:10px;
+	margin:-5px 0 0 -5px;
+	background-color:#fff;
+}
+
+.voiceListeningSecondCircle{
+	width:16px;
+	height:16px;
+	margin:-9px 0 0 -9px;
+	border:1px solid #fff;
+	animation:2000ms pulseIn ease-in-out infinite;
+	-webkit-animation:2000ms pulseIn ease-in-out infinite;						
+}
+
+@keyframes pulseIn{
+	0%{
+		opacity:0;
+		transform:scale(0.2,0.2);
+	}
+	50%{
+		opacity:1;
+		transform:scale(1,1);
+	}
+	100%{
+					opacity:0;
+		transform:scale(0.2,0.2);
+	}
+}
+
+@-webkit-keyframes pulseIn{
+				0%{
+		opacity:0;
+		-webkit-transform:scale(0.2,0.2);
+	}
+	50%{
+		opacity:1;
+		-webkit-transform:scale(1,1);
+	}
+	100%{
+					opacity:0;
+		-webkit-transform:scale(0.2,0.2);
+	}
+}
+			
+.voiceListeningThirdCircle{
+	width:24px;
+	height:24px;
+	border:1px solid #fff;
+	margin:-13px 0 0 -13px;
+	animation:2000ms pulseIn 500ms ease-in-out infinite;
+	-webkit-animation:2000ms pulseIn 500ms ease-in-out infinite		
+}
+
+
+.voiceListening.timeout .voiceListeningFirstCircle{
+    background-color:orange;
+}
+.voiceListening.timeout .voiceListeningSecondCircle{
+    border:1px solid orange;
+}
+.voiceListening.timeout .voiceListeningThirdCircle{
+    border:1px solid orange;	
+}
+
+
+.voiceListening.error .voiceListeningFirstCircle{
+    background-color:red;
+}
+.voiceListening.error .voiceListeningSecondCircle{
+    border:1px solid red;
+}
+.voiceListening.error .voiceListeningThirdCircle{
+    border:1px solid red;	
+}
+		
